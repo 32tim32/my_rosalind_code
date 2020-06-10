@@ -6,7 +6,7 @@ def FIB(n, k):
     newborn = 0
     growing = 0
     adults = 1
-#Loop that goes through the life cycle of the rabbits
+    #Loop that goes through the life cycle of the rabbits
     for month in range(0,n):
         adults = growing + adults
         growing = newborn
