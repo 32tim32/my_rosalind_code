@@ -82,7 +82,6 @@ f.close()
 
 
 #Bleuest
-#This has a lot I've never seen so it'll take work to understand
 #Open file and start immediatly looping it
 with open('rosalind_gc.txt', mode='r', encoding='utf+8') as file:
 #Split on lines and then join all the lines before splitting again on '>'
